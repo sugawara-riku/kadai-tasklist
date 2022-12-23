@@ -62,7 +62,7 @@ class TaskController extends Controller
             'content' => 'required',
             ]);
         
-        $request->user()->tasks->create([
+        $request->user()->tasks()->create([
             'status' => $request->status,
             'content' => $request->content,
         ]);
