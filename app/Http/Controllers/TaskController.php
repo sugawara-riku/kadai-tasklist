@@ -76,7 +76,7 @@ class TaskController extends Controller
         
         return redirect('/');
         */
-        return back();
+        return redirect('/');
     }
 
     /**
